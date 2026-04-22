@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sael Plomería</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0b0f14;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(0,0,0,0.8);
+    position: sticky;
+    top: 0;
+}
+header h1 {
+    color: #00aaff;
+    font-size: 1.5em;
+}
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #0b0f14, #111);
+}
+.hero h2 {
+    font-size: 3em;
+}
+.hero p {
+    font-size: 1.2em;
+    color: #aaa;
+}
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 30px;
+    background: #00aaff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #008ecc;
+}
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+.card {
+    background: #111;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.footer {
+    background: #0a0a0a;
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>SAEL PLOMERÍA</h1>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Servicio Premium de Plomería</h2>
+    <p>Soluciones rápidas, seguras y profesionales para tu hogar o negocio.</p>
+    <a href="https://wa.me/18494836056" class="btn">Escríbenos por WhatsApp</a>
+</section>
+
+<section class="section">
+    <h2>Nuestros Servicios</h2>
+    <div class="grid">
+        <div class="card">🔧 Reparación de fugas</div>
+        <div class="card">🚿 Instalación de tuberías</div>
+        <div class="card">🧼 Destape de drenajes</div>
+        <div class="card">🏠 Mantenimiento general</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>¿Por qué elegirnos?</h2>
+    <div class="grid">
+        <div class="card">✔ Atención rápida</div>
+        <div class="card">✔ Trabajo garantizado</div>
+        <div class="card">✔ Técnicos profesionales</div>
+        <div class="card">✔ Precios justos</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Contacto</h2>
+    <div class="grid">
+        <div class="card">📞 849-483-6056</div>
+        <div class="card">📲 WhatsApp directo</div>
+        <div class="card">📷 @saelplomeria</div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Sael Plomería - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
